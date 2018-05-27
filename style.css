@@ -3,7 +3,6 @@ html{
   color: antiquewhite;
   height: 100%;
   width: 100%;
-  border: 5px solid blue;
 }
 body{
   background-color: #151515;
@@ -12,16 +11,28 @@ body{
 .container{
   height: 100%;
   width: 100%;
-  border: 5px solid green;
   background-color: #151515;
   color: antiquewhite;
 }
 .cquote{
   font-family: 'Montserrat', sans-serif;
-  width: 550px;
+  width: 45%;
   font-weight: 100;
   font-size: 35px;
   position: absolute;
-  left: 28vw;
-  top: 200px;
+  left: 27.5%;
+  top: 30%;
+}
+.cdescription{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 90%;
+  font-size: 20px;
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  top: 70%;
+  background-color: #212121;
+  padding: 2%;
+  border-radius: 15px;
 }
