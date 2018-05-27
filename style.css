@@ -1,4 +1,16 @@
+
 html{
-    background-color: #151515;
-    color: antiquewhite;
+  background-color: #151515;
+  color: antiquewhite;
+  height: 100%;
+  width: 100%;
+  border: 5px solid blue;
+}
+.container{
+  height: 30vh;
+  border: 3px solid green;
+}
+.cquote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
