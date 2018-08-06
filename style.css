@@ -1,38 +1,41 @@
-html{
-  background-color: #151515;
-  color: antiquewhite;
-  height: 100%;
-  width: 100%;
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
-body{
-  background-color: #151515;
-  color: antiquewhite;
+
+#projectDescription{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
 }
-.container{
-  height: 100%;
-  width: 100%;
-  background-color: #151515;
-  color: antiquewhite;
+
+#aboutPage{
+    border: 1px solid red;
+    padding: 50px 50px 30px 50px;
+    /* padding-left: 50px;
+    padding-right: 50px;
+    padding-top:50px; */
 }
-.cquote{
-  font-family: 'Montserrat', sans-serif;
-  width: 45%;
-  font-weight: 100;
-  font-size: 35px;
-  position: absolute;
-  left: 27.5%;
-  top: 30%;
+
+#mainStyle{
+    background-color: #161616 !important;
+    color: #fff !important;
+    letter-spacing: .0625em;
 }
-.cdescription{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  width: 90%;
-  font-size: 20px;
-  position: absolute;
-  left: 5%;
-  text-align: center;
-  top: 70%;
-  background-color: #212121;
-  padding: 2%;
-  border-radius: 15px;
+
+#quote{
+    padding: 50px 50px 90px 50px;
+    width: 95%;
+    height: 100% !important;
+    border: 1px solid red;
+    
+}
+
+.col-sm{ 
+    border:1px solid red;
+}
+
+.row{
+    padding-top: 10px;
 }

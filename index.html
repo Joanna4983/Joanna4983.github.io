@@ -1,40 +1,148 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">Joanna Orlowska</a>
-            </div>
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="linuxDiaries.md">The Linux Diaries</a></li>
-            </ul>
-          </div>
-        </nav>
-    </head>
-
-    <body>
-      <div class="container">
-        <div class="cquote">
-          "Choose a job you love, and you will never have to work a day in your life." - Confucius
-        </div>
-
-        <div class="cdescription">
-          I'm a graduate of NUI Galways Computer Science and Information Technology undergraduate degree. I am passionate about fields of Networking, Crytography and development however my main interests lie with Cybersecurity.
-        </div>
-
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">John Doe</a>
+      <div class="navbar-nav">
+        <ul>
+          <li class="active"><a class="nav-item nav-link" href="#">Home</a></li>
+          <li><a class="nav-item nav-link" href="#">Projects</a></li>
+          <li><a class="nav-item nav-link" href="#">Stuff</a></li>
+        </ul>
       </div>
-    </body>
+    </nav>
+
+  </head>
+
+  <body>
+
+
+  </body> -->
+
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body id="mainStyle">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Projects</a>
+        <a class="nav-item nav-link" href="#">Stuff</a>
+        <a class="nav-item nav-link disabled" href="#">Coming Soon</a>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid text-center" id="quote">
+    <h3>"Choose a job you love, and you will never have to work a day in your life." - Confucius</h3>
+  </div>
+    
+  <div class="container-fluid" id="aboutPage">
+    <h2>About</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+      dolore magna aliqua. Ut enim </p>
+
+    <p>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+    <blockquote>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+      id est laborum.</blockquote>
+
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="#" class="rounded img-fluid" alt="MetaEx: Image Metadata Extraction" height="400" width="520">
+      </div>
+      <div class="col-sm" id="projectDescription">
+        <h3>MetaEx: Image Metadata Extraction Tool</h3>
+        <p>MetaEx is an image metadata extraction tool. It takes in an image and displays the metadata 
+          contained within it. There is also a scraping functionality where the tool can scrape a 
+          given URL for images and download them. </p>
+        <p>It's written entirely in Python.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="#" class="rounded img-fluid" alt="MITM" height="400" width="520">
+      </div>
+      <div class="col-sm" id="projectDescription">
+        <h3>MITM</h3>
+        <p>MITM is a Man In the Middle tool that has been developed as part of my final year project. 
+          It aims to educate people about the dangers posed by MITM attacks and demonstrate how these 
+          attacks take place and how to avoid them.</p>
+        <p>It's written entirely in Python & Shell.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="#" class="rounded img-fluid" alt="Day/Night Mode Toggler" height="400" width="520">
+      </div>
+      <div class="col-sm" id="projectDescription">
+        <h3>Day/Night Mode Toggler</h3>
+        <p>A personal project developed to better my understanding of jQuery. This project 
+          is a small button that switches between a day and a night theme to make browsing the web 
+          put less strain on the eyes during the night time.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm">
+          <img src="#" class="rounded img-fluid" alt="Rain Animation" height="400" width="520">
+        </div>
+        <div class="col-sm" id="projectDescription">
+          <h3>Rain Animation</h3>
+          <p>A personal project where I experimented with a less known language halm. This is an 
+            animation of falling rain.</p>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="#" class="rounded img-fluid" alt="MySpace" height="400" width="520">
+      </div>
+      <div class="col-sm" id="projectDescription">
+        <h3>MySpace</h3>
+        <p>This website has been a group project I took part in that utilises the technologies of 
+          the MEAN stack. It has been developed in 2015/2016.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="thedeepyear1.png" class="rounded img-fluid" alt="First Year Joke Website" height="400" width="520">
+      </div>
+      <div class="col-sm" id="projectDescription">
+        <h3>First Year Joke Website</h3>
+        <p>2 weeks into first year of college and we were asked to create our very first websites.</p>
+        <p>This is the one I created.</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
 
 </html>
