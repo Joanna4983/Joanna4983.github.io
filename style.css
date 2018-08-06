@@ -4,33 +4,37 @@ h3{
     padding-bottom: 10px;
 }
 
-#projectDescription{
-    padding-left: 50px;
-    padding-bottom: 30px;
-    padding-right: 50px;
-}
-
-#aboutPage{
-    border: 1px solid red;
-    padding: 50px 50px 30px 50px;
-    /* padding-left: 50px;
-    padding-right: 50px;
-    padding-top:50px; */
-}
-
-#mainStyle{
+#mainStyle{ 
+    /* for the body */
     background-color: #161616 !important;
     color: #fff !important;
     letter-spacing: .0625em;
+    width: 100%;
 }
 
-#quote{
-    padding: 50px 50px 90px 50px;
-    width: 95%;
-    height: 100% !important;
+#quotePage{
+    padding: 20vh 15vw 45vh 13vw;
+    width: 95vw;
+    height: 100vh !important;
     border: 1px solid red;
     
 }
+
+#aboutPage{
+    height: 100vh !important;
+    border: 1px solid red;
+    padding: 20vh 15vw 45vh 13vw;
+    font-size: 2.4vh;
+}
+
+#projectDescription{
+    padding: 2vh 5vw 5vh 5vw;
+    /* padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px; */
+}
+
+
 
 .col-sm{ 
     border:1px solid red;
