@@ -12,19 +12,32 @@ h3{
     width: 100%;
 }
 
+img{
+    
+    height: "400";
+    width: "520";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #quotePage{
     padding: 20vh 15vw 45vh 13vw;
-    width: 95vw;
     height: 100vh !important;
-    border: 1px solid red;
+    background: linear-gradient( #161616, #3f3f3f)
     
 }
 
 #aboutPage{
     height: 100vh !important;
-    border: 1px solid red;
     padding: 20vh 15vw 45vh 13vw;
     font-size: 2.4vh;
+    background: linear-gradient( #3f3f3f, #545454)
+}
+
+#projectsPage{
+    padding: 10vh 10vw ;
+    background: linear-gradient(  #545454, #696969)
 }
 
 #projectDescription{
@@ -34,10 +47,18 @@ h3{
     padding-right: 50px; */
 }
 
+#separator{
+    height:0.4vh;
+    background-color: #161616;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+
 
 
 .col-sm{ 
-    border:1px solid red;
 }
 
 .row{
